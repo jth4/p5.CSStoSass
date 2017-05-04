@@ -7,7 +7,8 @@ body{
 }
 
 header, 
-footer {
+footer,
+html {
 	background: $color-bg;
 }
 
@@ -17,10 +18,11 @@ footer {
 
 main {
 	color: $color-main-text;
+	background: $color-text;
 }
 
 h4 {
-	color: $color-h234;
+	color: $color-h4;
 }
 
 #skills {

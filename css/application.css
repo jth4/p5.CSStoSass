@@ -13,14 +13,16 @@ body {
   color: #fff; }
 
 header,
-footer {
+footer,
+html {
   background: #1C3F4E; }
 
 .nav li {
   background: #17333f; }
 
 main {
-  color: #000; }
+  color: #000;
+  background: #fff; }
 
 h4 {
   color: #444; }
@@ -39,8 +41,8 @@ a:hover {
   box-sizing: border-box; }
 
 p {
-  font-weight: 200;
   line-height: 1.5;
+  font-weight: 200;
   padding: 10px 25px; }
 
 img {
@@ -70,17 +72,17 @@ h1 {
       margin: 0; } }
 
 h3 {
+  font-size: 0.8em;
   padding: 45px;
-  text-transform: uppercase;
-  font-size: .8em; }
+  text-transform: uppercase; }
   @media (min-width: 768px) {
     h3 {
       font-size: 1em; } }
 
 h4 {
-  padding: 15px 0 5px;
+  font-size: 1.2em;
   font-weight: 400;
-  font-size: 1.2em; }
+  padding: 15px 0 5px; }
 
 .nav {
   margin: 0 auto 40px;
@@ -133,12 +135,12 @@ h4 {
 
 footer p {
   font-size: 1.2em; }
-  @media brk-med {
+  @media (min-width: 768px) {
     footer p {
       font-size: 1.3em;
       padding-left: 100px;
       padding-right: 100px; } }
-  @media brk-lg {
+  @media (min-width: 1024px) {
     footer p {
       padding-left: 200px;
       padding-right: 200px; } }

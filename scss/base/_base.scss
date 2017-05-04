@@ -6,8 +6,7 @@
 }
 
 p {
-	font-weight: 200;
-	line-height: 1.5;
+	@include text($weight:200,$l-height:1.5);
 	padding: 10px 25px;
 }
 

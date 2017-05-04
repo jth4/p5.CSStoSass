@@ -1,0 +1,41 @@
+.nav {
+	margin: 0 auto 40px;
+	max-width: 550px;
+	
+	@media #{$brk-lg} {
+		width: 50%;
+		text-align: right;
+		float: right;
+	}
+	
+	li	{
+		padding: 10px;
+		margin: 5px 20px;
+		
+		@media #{$brk-med} {
+				display: inline-block;
+				width: 20%;
+				background-color: transparent;
+				margin: 0;
+				padding: 0;
+		}
+	}
+	
+	a {
+		@extend %a-style;
+		display: block;
+		text-transform: uppercase;
+		font-size: .9em;
+		
+		@media #{$brk-lg} {
+			text-align: center;
+		}
+	}
+	
+	@extend %clearfix;
+}
+
+nav {
+	@extend %clearfix;
+}
+

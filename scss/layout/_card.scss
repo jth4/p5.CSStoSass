@@ -1,0 +1,20 @@
+.card {
+	padding-bottom:40px;
+	
+	@media #{$brk-med} {
+		display: inline-block;
+		max-width: 49%;
+		vertical-align: top;
+		padding: 5px 5px 50px;
+	}
+	
+	img, p {
+		@media #{$brk-med} {
+			padding: 0;
+		}
+	}
+	
+	@media #{$brk-lg} {
+		max-width: 33%;
+	}
+}

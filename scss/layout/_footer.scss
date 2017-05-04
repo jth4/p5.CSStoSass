@@ -1,0 +1,27 @@
+footer {
+	p {
+		font-size: 1.2em;
+		
+		@media #{brk-med}{
+			font-size: 1.3em;
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+		
+		@media #{brk-lg} {
+			padding-left: 200px;
+			padding-right: 200px;
+		}
+	}
+	a {
+		@extend %a-style;
+		font-weight: 400;
+	}
+}
+
+.footer-wrap {
+	padding: 0 25px;
+	@extend %clearfix;
+}
+
+

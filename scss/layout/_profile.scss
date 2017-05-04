@@ -1,0 +1,28 @@
+.profile {
+	margin-bottom: 25px;
+	
+	p { 
+		font-size:1.1em; 
+		
+		@media #{$brk-med} {
+			font-size: 1.3em;
+			line-height: 1.4;
+			text-align: left;
+		}
+	}
+	
+	img { 
+		width: 75%;
+		
+		@media #{$brk-med} {
+			float: right;
+			width: 43%;
+		} 
+		
+		@media #{$brk-lg} {
+			margin-left: 0;
+		}
+	}
+	
+	@extend %clearfix;
+}

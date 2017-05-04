@@ -1,0 +1,33 @@
+// ==============================
+// Base Color Declarations
+// ==============================
+
+body{
+	color: $color-text;
+}
+
+header, 
+footer {
+	background: $color-bg;
+}
+
+.nav li	{
+	background: $color-nav-bg;
+}
+
+main {
+	color: $color-main-text;
+}
+
+h4 {
+	color: $color-h234;
+}
+
+#skills {
+	background: $color-div-2;
+	color: $color-text-2;
+}
+
+a:hover {
+	color: $color-a-hover;
+}

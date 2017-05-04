@@ -1,0 +1,26 @@
+// ================================
+// Base Color Variables
+// ================================
+
+$color-text			: #fff;
+$color-main-text		: #000;
+$color-h234			: #444;
+
+$color-bg	 		: #1C3F4E;
+
+$color-div-2			: #DE6422;
+$color-text-2		: #fff;
+
+$color-a				: #fff;
+$color-a-hover		: darken($color-a, 25%);
+
+$color-border		: #999;
+
+$color-nav-bg		: darken($color-bg, 4%);
+
+// ================================
+// Media Query Variables
+// ================================
+
+$brk-med 			: '(min-width: 768px)';
+$brk-lg				: '(min-width: 1024px)';

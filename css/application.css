@@ -1,0 +1,215 @@
+.nav a, footer a, .toe a {
+  color: #fff;
+  text-decoration: none; }
+  .nav a:hover, footer a:hover, .toe a:hover {
+    color: #bfbfbf; }
+
+.nav:after, nav:after, .profile:after, .footer-wrap:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  color: #fff; }
+
+header,
+footer {
+  background: #1C3F4E; }
+
+.nav li {
+  background: #17333f; }
+
+main {
+  color: #000; }
+
+h4 {
+  color: #444; }
+
+#skills {
+  background: #DE6422;
+  color: #fff; }
+
+a:hover {
+  color: #bfbfbf; }
+
+* {
+  margin: 0;
+  font-family: sans-serif;
+  list-style-type: none;
+  box-sizing: border-box; }
+
+p {
+  font-weight: 200;
+  line-height: 1.5;
+  padding: 10px 25px; }
+
+img {
+  width: 100%;
+  padding: 10px 15px; }
+
+ul {
+  padding-left: 0; }
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 1024px;
+    margin: 0 auto; } }
+
+h1 {
+  font-weight: 700;
+  padding: 20px; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 1.5em;
+      padding: 30px; } }
+  @media (min-width: 1024px) {
+    h1 {
+      display: inline;
+      float: left;
+      padding: 0 25px;
+      margin: 0; } }
+
+h3 {
+  padding: 45px;
+  text-transform: uppercase;
+  font-size: .8em; }
+  @media (min-width: 768px) {
+    h3 {
+      font-size: 1em; } }
+
+h4 {
+  padding: 15px 0 5px;
+  font-weight: 400;
+  font-size: 1.2em; }
+
+.nav {
+  margin: 0 auto 40px;
+  max-width: 550px; }
+  @media (min-width: 1024px) {
+    .nav {
+      width: 50%;
+      text-align: right;
+      float: right; } }
+  .nav li {
+    padding: 10px;
+    margin: 5px 20px; }
+    @media (min-width: 768px) {
+      .nav li {
+        display: inline-block;
+        width: 20%;
+        background-color: transparent;
+        margin: 0;
+        padding: 0; } }
+  .nav a {
+    display: block;
+    text-transform: uppercase;
+    font-size: .9em; }
+    @media (min-width: 1024px) {
+      .nav a {
+        text-align: center; } }
+
+.profile {
+  margin-bottom: 25px; }
+  .profile p {
+    font-size: 1.1em; }
+    @media (min-width: 768px) {
+      .profile p {
+        font-size: 1.3em;
+        line-height: 1.4;
+        text-align: left; } }
+  .profile img {
+    width: 75%; }
+    @media (min-width: 768px) {
+      .profile img {
+        float: right;
+        width: 43%; } }
+    @media (min-width: 1024px) {
+      .profile img {
+        margin-left: 0; } }
+
+@media (min-width: 768px) {
+  main {
+    padding: 20px; } }
+
+footer p {
+  font-size: 1.2em; }
+  @media brk-med {
+    footer p {
+      font-size: 1.3em;
+      padding-left: 100px;
+      padding-right: 100px; } }
+  @media brk-lg {
+    footer p {
+      padding-left: 200px;
+      padding-right: 200px; } }
+footer a {
+  font-weight: 400; }
+
+.footer-wrap {
+  padding: 0 25px; }
+
+.wrap {
+  text-align: center;
+  margin: 0; }
+
+#skills {
+  font-size: 2em;
+  padding-bottom: 40px; }
+
+@media (min-width: 768px) {
+  header {
+    padding: 20px 10px 120px; } }
+@media (min-width: 1024px) {
+  header {
+    padding-top: 40px; } }
+
+.card {
+  padding-bottom: 40px; }
+  @media (min-width: 768px) {
+    .card {
+      display: inline-block;
+      max-width: 49%;
+      vertical-align: top;
+      padding: 5px 5px 50px; } }
+  @media (min-width: 768px) {
+    .card img, .card p {
+      padding: 0; } }
+  @media (min-width: 1024px) {
+    .card {
+      max-width: 33%; } }
+
+.toe {
+  border-top: 1px solid #999;
+  margin-top: 70px;
+  padding: 20px 0 90px; }
+
+.toe-name {
+  float: left;
+  margin-right: auto;
+  font-weight: 700; }
+
+.toe-back {
+  float: right; }
+  .toe-back a {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 700; }
+  @media (min-width: 768px) {
+    .toe-back {
+      display: none; } }
+
+.toe-nav {
+  display: none; }
+  @media (min-width: 768px) {
+    .toe-nav {
+      display: flex;
+      float: right; } }
+  @media (min-width: 768px) {
+    .toe-nav a {
+      padding: 0 0 0 25px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: .8em;
+      font-weight: 700; } }
+
+/*# sourceMappingURL=application.css.map */

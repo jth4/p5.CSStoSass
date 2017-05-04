@@ -1,0 +1,48 @@
+.toe {
+	border-top: 1px solid $color-border;
+	margin-top:  70px;
+	padding: 20px 0 90px;
+	
+	a {
+		@extend %a-style;
+	}
+}
+
+.toe-name {
+	float: left;
+	margin-right: auto;
+	font-weight: 700;
+}
+
+.toe-back {
+	float: right;
+	
+	a {
+		text-transform: uppercase;
+		font-size: .8em;
+		font-weight: 700;
+	}
+	
+	@media #{$brk-med} {
+		display: none;
+	}
+}			
+
+.toe-nav {
+	display: none;
+	
+	@media #{$brk-med} {
+		display: flex;
+		float: right;
+	}
+	
+	a {
+		@media #{$brk-med} {
+			padding:0 0 0 25px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: .8em;
+			font-weight: 700;
+		}
+	}
+}

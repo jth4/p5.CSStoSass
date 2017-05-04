@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	font-family: sans-serif;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+p {
+	font-weight: 200;
+	line-height: 1.5;
+	padding: 10px 25px;
+}
+
+img	{
+	width: 100%;
+	padding: 10px 15px;
+}
+
+ul {
+	padding-left: 0;
+}
+
+body {
+	@media #{$brk-lg} {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+}
+		
